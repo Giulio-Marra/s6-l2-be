@@ -29,8 +29,8 @@ public class Creatore {
         this.avatar = avatar;
     }
 
-    public int newId() {
+    public long newId() {
         Random random = new Random();
-        return random.nextInt(1, 100);
+        return random.nextLong(1, 100);
     }
 }
